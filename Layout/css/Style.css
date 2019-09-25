@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: lato ,sans-serif;
+    color: gray;
+    font-size: 16px;
+}
+ *{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz- box-sizing: border-box;
+ }
+img{
+    max-width: 100%;
+    display:block;
+}
+header{padding: 30px 0;}
+.container{
+    width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo img{}
+
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+nav ul li{float: right;list-style-type: none;color: gray; display: inline; margin-left: 15px;}
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    margin-left: 30px;
+}
+nav ul li a:hover{}
+
+.banner-section{}
+.banner-section img{
+    width: 100%;
+}
+.img{max-width: 100%;
+    display:block;}
+
+.article-section{}
+.container-box{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+article{padding: 30px 0;}
+article span{margin-left: 50px;
+    color: #484646;
+}
+article h1{font-size: 1.7em;margin-left: 50px;}
+article p{ font-size: 20px;
+    margin-left: 50px;}
+article a{
+    text-decoration: none;
+}
+article a span{}
+
+.gallery-box{
+    overflow: hidden;
+}
+.gallery{
+     width: 50%;
+    float: left;
+    padding: 30px;   
+}
+.gallery span{
+}
+.gallery h1{}
+.gallery p{font-size: 17px
+}
+.gallery img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer{
+    padding: 30px 0;
+    background-color: gray;
+    width: 50%;
+    float: left;
+}
+.footer-menu{
+    width:50%;
+    float:left;}
+.footer-menu ul{ margin: 0;
+    padding: 0;
+}
+.footer-menu ul li{list-style: none;float: left;
+
+}
+.footer-menu ul li a{text-decoration: none;
+    
+color: #181717;
+    
+text-transform: capitalize;
+
+}
+.footer-menu ul li a:hover{}
+
+.social-menu{display: inline-block;
+    width: 50%;}
+.social-menu ul{margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.social-menu ul li{display: inline-block;
+    font-size: 12px;}
+.social-menu ul li span{ font-size: 19px;}
+.social-menu ul li a{color: gray;
+    margin-left: text-decoration: none;
+padding: 0 17px;
+font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
